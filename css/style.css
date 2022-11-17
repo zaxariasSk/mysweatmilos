@@ -24,7 +24,7 @@ body {
   position: fixed;
   z-index: 4;
   top: 0;
-    min-height: 108px;
+  min-height: 108px;
 }
 
 .smallLogo {
@@ -75,12 +75,8 @@ body {
 /* SLIDE SHOW */
 
 .outerSlide {
-    background-color: #f8f5f0;
   overflow: hidden;
   margin-top: 90px;
-  
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .outerSlide {
@@ -93,12 +89,16 @@ body {
   left: 5%;
 }
 
+.test {
+  position: relative;
+}
+
 .socialMedia {
   width: 271.22px;
   height: 82.01px;
   background-color: #ece9e9;
   position: absolute;
-  bottom: 6%;
+  bottom: 3%;
   right: 7%;
   border-radius: 1rem;
 
@@ -115,8 +115,15 @@ body {
 
 .links a {
   width: fit-content;
-  text-align: center;
   display: block;
+}
+
+.links a:first-child {
+  text-align: end;
+}
+
+.links a:nth-child(2) {
+  text-align: center;
 }
 
 .socialMedia a p {
@@ -130,8 +137,16 @@ body {
 
 .links img {
   padding-top: 10px;
-  width: 100%;
+  width: 65%;
   height: auto;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}
+
+.slick-dots {
+  bottom: -20px;
 }
 
 .slick-slide img {
@@ -182,4 +197,62 @@ body {
 .slick-dots li {
   height: 28px;
   width: 28px;
+}
+
+.background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.bgInnerContainer {
+  background-color: #f8f5f0;
+  width: 89.56%;
+  /* padding-top: 40px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selection {
+  width: 135%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  column-gap: 4px;
+}
+
+.selection select {
+  width: 20%;
+  padding: 10px 10px 10px 0px;
+  border: none;
+  /* background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") right center no-repeat; */
+  /* color: orange; */
+}
+
+.selection select:nth-child(3) {
+  flex-basis: content;
+}
+
+.selection select:nth-child(4) {
+  flex-basis: content;
+}
+
+.selection select:nth-child(5) {
+  flex-basis: content;
+}
+
+.selection select option{
+  text-align: left;
+}
+
+.checkBtn {
+  white-space: nowrap;
+}
+
+.checkBtn button {
+  background-color: orangered;
+  width: 100%;
+  padding: 9px 10px 9px;
 }
