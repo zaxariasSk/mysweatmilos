@@ -109,7 +109,7 @@ body {
 
 .socialMedia {
   width: 271.22px;
-  height: 82.01px;
+  height: 82px;
   background-color: #ece9e9;
   position: absolute;
   bottom: 3%;
@@ -449,7 +449,7 @@ body {
 }
 
 .room2Container {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .relaxing {
@@ -475,7 +475,7 @@ body {
 
 .room4 {
   padding-top: 0;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 4%;
 }
 
@@ -622,3 +622,47 @@ body {
 .ratingTxt:last-child {
   margin-left: 60px;
 }
+
+
+.fContainer {
+  margin-top: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.fInnerContainer {
+  width: 89.56%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.contact > p {
+  padding-bottom: 20px;
+}
+
+.tilephono-Odos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.ama {
+  padding-bottom: 20px;
+}
+
+/* .contact div:first-of-type {
+  padding-bottom: 20px;
+} */
