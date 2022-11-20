@@ -1,0 +1,329 @@
+@media screen and (max-width: 1676px) {
+  .detailsInnerContainer {
+    flex-direction: column;
+  }
+
+  .details-txt {
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .testing {
+    margin-bottom: 100px;
+    margin-left: 140px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    /* background-color: aqua; */
+  }
+
+  .roomInnerContainer,
+  .room2InnerContainer {
+    flex-direction: column-reverse;
+  }
+
+  .room1,
+  .room2,
+  .room3,
+  .room4 {
+    margin: 0;
+  }
+
+  .socialMedia {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    /* background-color: red; */
+  }
+
+  .navBar ul li {
+    list-style: none;
+  }
+
+  .smallLogo img {
+    width: 87.7px;
+    max-width: none;
+  }
+
+  .navPar {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 1124px) {
+  body {
+    /* background-color: yellowgreen; */
+  }
+
+  .cardsContainer {
+    flex-direction: column;
+  }
+
+  .cardsContainer .card {
+    margin: 0;
+  }
+
+  .cardsContainer .card:first-child {
+    margin-bottom: 80px;
+  }
+
+  .cardsContainer .card:last-child {
+    margin-top: 80px;
+  }
+
+  .selection {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  body {
+    /* background-color: yellowgreen; */
+  }
+
+  .socialMedia {
+    width: 24%;
+  }
+
+  .navPar {
+    display: none;
+    /* visibility: hidden; */
+    margin: 0;
+  }
+
+  .navBar ul {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .navBar ul.active {
+    left: 0;
+  }
+
+  .navBar ul li {
+    margin: 20px 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-right: 5%;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .milosIslan {
+    top: 0;
+    left: auto;
+  }
+
+  .informationTxt {
+    margin-top: 190px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .socialMedia {
+    width: 30%;
+    height: 76px;
+  }
+
+  .room4 > icons > img {
+    height: 80%;
+    width: auto;
+  }
+
+  .roomImg,
+  .room2Img {
+    text-align: center;
+  }
+
+  .roomImg img,
+  .room2Img img {
+    width: 65%;
+    height: auto;
+  }
+
+  .room2Img img {
+    margin-top: 200px;
+  }
+
+  .room4 .room2Img img {
+    margin: 0;
+  }
+
+  .room3 .roomImg img {
+    margin-bottom: 150px;
+  }
+
+  .testing {
+    margin: 0px;
+  }
+
+  .outsideImg1 {
+    position: static;
+  }
+
+  .detailsInnerContainer {
+    margin-bottom: 50px;
+  }
+
+  .relaxing img,
+  .milosIslan img,
+  .living img {
+    width: 100%;
+    height: auto;
+  }
+
+  .selection {
+    flex-direction: column;
+  }
+
+  .selection select,
+  .selection .checkBtn {
+    width: 100%;
+  }
+
+  .bgInnerContainer {
+    padding-bottom: 60px;
+  }
+
+  .nav-menu {
+    margin-top: 20px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .socialMedia {
+    height: 50px;
+  }
+  .room1 .icons,
+  .room4 .icons {
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 10px 0;
+  }
+
+  .room4 .icons img {
+    width: 72%;
+  }
+
+  .room1 .icons img {
+    width: 90%;
+  }
+  .informationTxt {
+    width: auto;
+  }
+
+  .ratingsInnerContainer {
+    padding-bottom: 20px;
+  }
+
+  .fixText {
+    flex-flow: column;
+  }
+
+  .ratingTxt:nth-child(odd) {
+    margin: 0;
+  }
+
+  .stars {
+    padding-bottom: 15px;
+  }
+
+  .author {
+    padding-bottom: 20px;
+  }
+
+  .fInnerContainer .test {
+    flex-direction: column-reverse;
+  }
+
+  .milosLogo {
+    margin-bottom: 40px;
+  }
+
+  .card {
+    width: 200px;
+  }
+
+  .card div img {
+    width: inherit;
+  }
+
+  .card:nth-child(2) div:nth-child(1) img {
+    width: 200px;
+  }
+  .card div:last-child p {
+    padding: 0;
+  }
+
+  .card div:last-child {
+    bottom: -30px;
+  }
+
+  .testing {
+    text-align: center;
+  }
+
+  .outsideImg1 img {
+    width: 80%;
+  }
+
+  .outsideImg2 img {
+    width: 85%;
+  }
+
+  .fInnerContainer {
+    flex-direction: column-reverse;
+  }
+  .milosLogo {
+    margin-right: 20px;
+  }
+
+  .tilephono-Odo {
+    align-items: center;
+  }
+
+  .imonlineLogo {
+    margin-bottom: 20px;
+  }
+
+  .socialMedia {
+    width: 40%;
+  }
+
+}
+
+
+@media screen and (max-width: 422px) {
+    .socialMedia {
+        flex-direction: column;
+        width: 30%;
+        height: 50%;
+    }
+}

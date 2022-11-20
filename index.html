@@ -19,6 +19,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuerries.css">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
                 <img src="images/Logo.png" alt="my Suite Logo" width="424" height="378">
             </div>
             <div class="navBar">
-                <ul>
+                <ul class="nav-menu">
                     <li><a href="#">κεντρική</a></li>
                     <li><a href="#">διαμονή</a></li>
                     <li><a href="#">παροχές</a></li>
@@ -37,6 +38,11 @@
                     <li><a href="#">κριτικές</a></li>
                     <li><a href="#">επικοινωνία</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
             <div class="navPar">
                 <p>ONLINE BOOKING</p>
@@ -49,14 +55,17 @@
                 <div class="logoDisappear">
                     <img src="images/Logo.png" alt="" width="424" height="378">
                 </div>
-                <div class="slides">
-                    <div>
-                        <img src="images/Slideshow.png" alt="">
-                    </div>
-                    <div>
-                        <img src="images/Slideshow.png" alt="">
-                    </div>
+                <div id="sliderImg">
+                    <img src="images/Slideshow.png" alt="">
                 </div>
+                <!-- <div class="slides">
+                    <div>
+                        <img src="images/Slideshow.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/Slideshow.png" alt="">
+                    </div>
+                </div> -->
                 <div class="socialMedia">
                     <div class="links">
                         <a href="#">
@@ -352,7 +361,7 @@
                             <p>ΑΜΑ:00001595110</p>
                         </div>
                         <div class="copyright">
-                            <p>@copyright</p>
+                            <p> &copy; copyright</p>
                         </div>
                     </div>
                     <div class="milosLogo">
@@ -378,7 +387,7 @@
             fade: true,
         });
     </script>
-
+    <script src="hamburger/hamburger.js"></script>
     <script src="js/logoDisappear.js"></script>
 </body>
 
